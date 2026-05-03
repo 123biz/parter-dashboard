@@ -1,0 +1,198 @@
+{
+  "version": "1.0.0",
+  "lastScanned": 1777811260133,
+  "projectRoot": "c:\\Aantigravity\\partner-dashboard",
+  "techStack": {
+    "languages": [
+      {
+        "name": "JavaScript/TypeScript",
+        "version": null,
+        "confidence": "high",
+        "markers": [
+          "package.json"
+        ]
+      },
+      {
+        "name": "TypeScript",
+        "version": null,
+        "confidence": "high",
+        "markers": [
+          "tsconfig.json"
+        ]
+      }
+    ],
+    "frameworks": [
+      {
+        "name": "next",
+        "version": "16.2.4",
+        "category": "fullstack"
+      },
+      {
+        "name": "react",
+        "version": "19.2.4",
+        "category": "frontend"
+      },
+      {
+        "name": "react-dom",
+        "version": "19.2.4",
+        "category": "frontend"
+      }
+    ],
+    "packageManager": "npm",
+    "runtime": null
+  },
+  "build": {
+    "buildCommand": "npm run build",
+    "testCommand": null,
+    "lintCommand": "npm run lint",
+    "devCommand": "npm run dev",
+    "scripts": {
+      "dev": "next dev",
+      "build": "next build",
+      "start": "next start",
+      "lint": "eslint"
+    }
+  },
+  "conventions": {
+    "namingStyle": null,
+    "importStyle": null,
+    "testPattern": null,
+    "fileOrganization": null
+  },
+  "structure": {
+    "isMonorepo": false,
+    "workspaces": [],
+    "mainDirectories": [
+      "app",
+      "public"
+    ],
+    "gitBranches": null
+  },
+  "customNotes": [],
+  "directoryMap": {
+    "app": {
+      "path": "app",
+      "purpose": "Application code",
+      "fileCount": 4,
+      "lastAccessed": 1777811259592,
+      "keyFiles": [
+        "favicon.ico",
+        "globals.css",
+        "layout.tsx",
+        "page.tsx"
+      ]
+    },
+    "public": {
+      "path": "public",
+      "purpose": "Public files",
+      "fileCount": 5,
+      "lastAccessed": 1777811259597,
+      "keyFiles": [
+        "file.svg",
+        "globe.svg",
+        "next.svg",
+        "vercel.svg",
+        "window.svg"
+      ]
+    }
+  },
+  "hotPaths": [
+    {
+      "path": "components\\PartnerMap.tsx",
+      "accessCount": 6,
+      "lastAccessed": 1777814462682,
+      "type": "file"
+    },
+    {
+      "path": "app\\page.tsx",
+      "accessCount": 5,
+      "lastAccessed": 1777816514706,
+      "type": "file"
+    },
+    {
+      "path": "app\\layout.tsx",
+      "accessCount": 3,
+      "lastAccessed": 1777811483783,
+      "type": "file"
+    },
+    {
+      "path": "",
+      "accessCount": 3,
+      "lastAccessed": 1777811806415,
+      "type": "directory"
+    },
+    {
+      "path": "app\\globals.css",
+      "accessCount": 3,
+      "lastAccessed": 1777812278857,
+      "type": "file"
+    },
+    {
+      "path": "lib\\partners.ts",
+      "accessCount": 3,
+      "lastAccessed": 1777812640342,
+      "type": "file"
+    },
+    {
+      "path": "components\\PartnerTable.tsx",
+      "accessCount": 3,
+      "lastAccessed": 1777812687418,
+      "type": "file"
+    },
+    {
+      "path": "app\\dashboard-client.tsx",
+      "accessCount": 3,
+      "lastAccessed": 1777816536494,
+      "type": "file"
+    },
+    {
+      "path": "components\\StatCard.tsx",
+      "accessCount": 2,
+      "lastAccessed": 1777812292397,
+      "type": "file"
+    },
+    {
+      "path": "package.json",
+      "accessCount": 1,
+      "lastAccessed": 1777811768407,
+      "type": "file"
+    },
+    {
+      "path": "app",
+      "accessCount": 1,
+      "lastAccessed": 1777811769471,
+      "type": "directory"
+    },
+    {
+      "path": "supabase\\schema.sql",
+      "accessCount": 1,
+      "lastAccessed": 1777812563835,
+      "type": "file"
+    },
+    {
+      "path": "supabase\\seed.sql",
+      "accessCount": 1,
+      "lastAccessed": 1777812605778,
+      "type": "file"
+    },
+    {
+      "path": "lib\\supabase.ts",
+      "accessCount": 1,
+      "lastAccessed": 1777812628024,
+      "type": "file"
+    },
+    {
+      "path": ".env.local.example",
+      "accessCount": 1,
+      "lastAccessed": 1777812695067,
+      "type": "file"
+    },
+    {
+      "path": "test-supabase.mjs",
+      "accessCount": 1,
+      "lastAccessed": 1777813435609,
+      "type": "file"
+    }
+  ],
+  "userDirectives": []
+}

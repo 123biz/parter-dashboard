@@ -1,0 +1,7 @@
+{
+  "tool_name": "Bash",
+  "tool_input_preview": "{\"command\":\"cd \\\"c:\\\\Aantigravity\\\\partner-dashboard\\\" && git push -u origin master 2>&1\",\"description\":\"Push to GitHub remote\"}",
+  "error": "Exit code 128\nremote: Repository not found.\nfatal: repository 'https://github.com/123biz/partner-dashboard.git/' not found",
+  "timestamp": "2026-05-03T13:24:44.366Z",
+  "retry_count": 2
+}
